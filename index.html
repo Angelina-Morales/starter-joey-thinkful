@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
 	<header>
 		<h1>Joey Thinkful</h1>
 		<nav>
@@ -22,6 +21,46 @@
 			</ul>
 		</nav>
 	</header>
+	<form>
+		<div>
+			<label for="name">First Name:</label>
+			<input 
+				id="name" 
+				type="text" 
+				name="name" 
+				required
+				/>
+		</div>
+		<div>
+			<label for="name">Last Name:</label>
+			<input 
+				id="name" 
+				type="text" 
+				name="name"
+				required
+				/>
+		</div>	
+		<div>
+			<label for="email">Email Address:</label>
+			<input 
+				id="email" 
+				type="text" 
+				name="email"
+				required
+				/>
+		</div>	
+		<div>
+			<label for="form=message">Your Message:</label>
+			<textarea
+				id="form-message"
+				name="message"
+				required
+				maxlength="500"
+			></textarea>	
+		</div>
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+	</form>
 </body>
 
 </html>
